@@ -50,14 +50,6 @@ h1, h2, h3 {
 </style>
 """, unsafe_allow_html=True)
 
-# =========================
-# LOGO
-# =========================
-if os.path.exists("logo.png"):
-    st.sidebar.image("logo.png", use_container_width=True)
-else:
-    st.sidebar.warning("Logo not found (logo.png)")
-
 st.sidebar.title("🚍 Transport System")
 
 # =========================
